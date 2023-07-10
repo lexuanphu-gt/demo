@@ -99,7 +99,7 @@ const Tailwind = () => {
           </div>
         </div>
         <div className="flex flex-col justify-evenly items-center py-10 md:flex-row">
-          <div className="text-center mb-10 oder-1 md:order-2">
+          <div className="text-center mb-10 order-1 md:order-2">
             <img
               src="https://raw.githubusercontent.com/PASSIONCORNERS/tailwind_vn/main/public/img/app-1.png"
               alt="app screen"
