@@ -7,13 +7,13 @@ const Tailwind1 = () => {
         <div className="mr-10 ">
           <img
             className="w-[100%]"
-            src="http://127.0.0.1:5500/tailwind_vn/public/img/logo.png"
+            src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/logo.png"
             alt="wedsite logo"
           ></img>
         </div>
-        <div className="flex justify-between items-center gap-10 w-[700px]">
-          <a className=" hover:text-red-500 transition-all" href="#">
-            Home<i className="fa-solid fa-phone text-red-400"></i>
+        <div className="flex justify-between items-center text-[20px] gap-10 w-[700px]">
+          <a className=" hover:text-red-500  transition-all" href="#">
+            Home
           </a>
           <a className=" hover:text-red-500 transition-all" href="#">
             Product
@@ -38,10 +38,10 @@ const Tailwind1 = () => {
             </p>
           </div>
           <div className="flex justify-center items-center gap-10 mb-10">
-            <button className="px-5 py-3 bg-red-500 border-transparent rounded-full hover:bg-white transition-all hover:bg-transparent">
+            <button className="px-10 py-5 bg-red-500 border-transparent rounded-full hover:bg-white transition-all hover:bg-transparent">
               Playstore
             </button>
-            <button className="px-5 py-3 bg-white border-transparent rounded-full hover:bg-red-500 transition-all ">
+            <button className="px-10 py-5 bg-white border-transparent rounded-full hover:bg-red-500 transition-all ">
               Appstore
             </button>
           </div>
@@ -49,27 +49,27 @@ const Tailwind1 = () => {
         
       </div>
       <div className=" flex justify-center items-center">
-        <div className=" mt-60 mb-40">
+        <div className=" mt-10 ">
         <img className=" "
-          src="http://127.0.0.1:5500/tailwind_vn/public/img/app-img.png"
+          src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/app-img.png"
           alt=""
         ></img>
         </div>
       </div>
-      <div className="mt-80 flex flex-col justify-center items-center">
+      <div className="mt-10 flex flex-col justify-center items-center">
         <div>
           <hr className="mb-10"></hr>
           <h1 className="text-4xl mb-20 font-bold">How the app works</h1>
         </div>
         <div className="mx-20">
-          <div className="flex mb-10">
+          <div className="flex justify-between mb-10 ">
             <div className=" ">
               <img
-                src="http://127.0.0.1:5500/tailwind_vn/public/img/app-1.png"
+                src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/app-1.png"
                 alt=""
               ></img>
             </div>
-            <div className="flex flex-col justify-center gap-10 ">
+            <div className="flex flex-col justify-center gap-10 w-[45%] ">
               <span className="text-red-500 font-semibold">
                 Create an account
               </span>
@@ -81,14 +81,14 @@ const Tailwind1 = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row-reverse mb-10">
-            <div className=" w-full ">
+          <div className="flex flex-row-reverse justify-between mb-10 ">
+            <div className=" ">
               <img
-                src="http://127.0.0.1:5500/tailwind_vn/public/img/app-2.png"
+                src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/app-2.png"
                 alt=""
               ></img>
             </div>
-            <div className="flex flex-col justify-center gap-10 ">
+            <div className="flex flex-col justify-center gap-10 w-[45%] ">
               <span className="text-red-500 font-semibold">
                 Create an account
               </span>
@@ -100,14 +100,14 @@ const Tailwind1 = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
-            <div className=" w-full">
+          <div className="flex justify-between mb-10 ">
+            <div className=" ">
               <img
-                src="http://127.0.0.1:5500/tailwind_vn/public/img/app-3.png"
+                src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/app-3.png"
                 alt=""
               ></img>
             </div>
-            <div className="flex flex-col justify-center gap-10 ">
+            <div className="flex flex-col justify-center gap-10 w-[45%] ">
               <span className="text-red-500 font-semibold">
                 Create an account
               </span>
@@ -119,20 +119,21 @@ const Tailwind1 = () => {
               </p>
             </div>
           </div>
+          
         </div>
       </div>
-      <div className="mt-20">
-        <div className="flex flex-col justyfi-center items-center text-center">
+      <div className="mt-20 h-[400px] bg-[url('https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/download.png')]">
+        <div className="pt-20 flex flex-col justyfi-center items-center text-center text-white">
           <h1 className="text-4xl font-bold mb-10">Download the app now</h1>
           <p className="text-xl font-light ">
             Available on your favorite store. Start your premium experience now
           </p>
         </div>
-        <div className="flex justify-center items-center gap-10 mt-5">
-          <button className="px-5 py-3 bg-red-500 border-transparent rounded-full hover:bg-white transition-all hover:bg-transparent">
+        <div className="flex justify-center items-center gap-10 mt-7">
+          <button className="px-10 py-5 bg-red-500 border-transparent rounded-full hover:bg-white transition-all hover:bg-transparent">
             Playstore
           </button>
-          <button className="px-5 py-3 bg-white border-transparent rounded-full hover:bg-red-500 transition-all ">
+          <button className="px-10 py-5 bg-white border-transparent rounded-full hover:bg-red-500 transition-all ">
             Appstore
           </button>
         </div>
@@ -141,7 +142,7 @@ const Tailwind1 = () => {
         <div className="flex justify-between">
           <div>
             <img
-              src="http://127.0.0.1:5500/tailwind_vn/public/img/logo.png"
+              src="https://raw.githubusercontent.com/lexuanphu-gt/demo/main/my-project/public/img/logo.png"
               alt=""
             ></img>
           </div>

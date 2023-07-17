@@ -1,15 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Note = ({ src, text }) => {
+const Note = () => {
+  const [count, setCount] = useState(5);
+  console.log("🚀 ~ file: Note.js:5 ~ Note ~ count:", count);
+
+  // function handleCount() {
+
+  // }
+
+  const handle = () => {
+    setCount((count)=> count + 1);
+  };
+
+  // const handleCount = () => {
+  //   setCount(!count);
+  // };
+
   return (
-    <div className="flex flex-col gap-3 ">
-      <img
-        className="w-[80px] "
-        // src="https://laptop88.vn/media/lib/17-06-2022/icon_chuot.png"
-        src={src}
-        alt="#"
-      ></img>
-      <button className="text-[12px] w-[80px] ">{text}</button>
+    <div className="flex flex-col justify-center items-center h-[100vh] w-[100%] border">
+      {/* {count ? <h1>a</h1> : <h1>b</h1>} */}
+      <h1
+        className={`text-2xl text-center mb-5 border px-5 py-3  ${
+          count ? "bg-blue-300" : "bg-red-400"
+        } `}
+      >
+        {count}
+      </h1>
+      <button
+        onClick={handle}
+        className="border text-xl text-red-500 bg-gray-300 px-5 py-3 "
+      >
+        an zo
+      </button>
     </div>
   );
 };
